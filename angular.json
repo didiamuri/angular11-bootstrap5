@@ -31,9 +31,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -127,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "exmple-projetc"
+  "defaultProject": "exmple-projetc",
+  "cli": {
+    "analytics": "9711be82-d677-4064-8421-7e62807c7ede"
+  }
 }
